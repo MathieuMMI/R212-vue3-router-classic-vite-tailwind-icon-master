@@ -7,6 +7,20 @@
       </div>
     </div>
   </div>
+  <div class="hidden xl:flex items-center overflow-hidden relative gap-2.5">
+    <div class="flex overflow-hidden gap-10">
+      <p class="flex-grow-0 flex-shrink-0 text-base font-medium text-left text-gray-900">Rent</p>
+      <p class="flex-grow-0 flex-shrink-0 text-base font-medium text-left text-gray-900">Buy</p>
+      <p class="flex-grow-0 flex-shrink-0 text-base font-medium text-left text-gray-900">Sell</p>
+      <p class="flex-grow-0 flex-shrink-0 text-base font-medium text-left text-gray-900">Manage Property</p>
+    </div>
+    <fleche-menu/>
+    <div class="flex justify-start items-center overflow-hidden gap-10">
+      <p class="flex-grow-0 flex-shrink-0 text-base font-medium text-left text-gray-900">Resources</p>
+    </div>
+    <fleche-menu/>
+  </div>
+
 <login-button />  
 <icone-logo-site />
 <icone-menu class="xl:hidden" />
@@ -17,12 +31,14 @@
 import IconeMenu from "../components/icons/IconeMenu.vue";
 import IconeLogoSite from "../components/icons/IconeLogoSite.vue";
 import LoginButton from "../components/buttons/LoginButton.vue";
+import FlecheMenu from "../components/FlecheMenu.vue"
 
 export default {
   components: {
     IconeMenu,
     IconeLogoSite,
     LoginButton,
+    FlecheMenu,
   },
 };
 </script>
