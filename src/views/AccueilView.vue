@@ -7,19 +7,22 @@
       </div>
     </div>
   </div>
+<login-button />  
 <icone-logo-site />
 <icone-menu class="xl:hidden" />
 </div>
 </template>
 
 <script>
-import IconeMenu from "../components/IconeMenu.vue";
-import IconeLogoSite from "../components/IconeLogoSite.vue";
+import IconeMenu from "../components/icons/IconeMenu.vue";
+import IconeLogoSite from "../components/icons/IconeLogoSite.vue";
+import LoginButton from "../components/buttons/LoginButton.vue";
 
 export default {
   components: {
     IconeMenu,
     IconeLogoSite,
+    LoginButton,
   },
 };
 </script>
